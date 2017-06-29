@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Did it", Toast.LENGTH_SHORT).show();
             }
-        });
+        }); 
 
         final int[] drawables = new int[3];
         drawables[0] = R.drawable.gradient_1;
